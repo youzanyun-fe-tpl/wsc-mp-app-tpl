@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/home/feature/index"
+  ],
+  "subPackages": [
+    {
+      "root": "packages/goods",
+      "name": "商品详情",
+      "pages": [
+        "detail/index"
+      ]
+    },
+    {
+      "root": "packages/order",
+      "name": "下单",
+      "pages": [
+        "index"
+      ]
+    }
+  ],
+  "usingComponents": {
+  },
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": " ",
+    "navigationBarTextStyle": "black",
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#f9f9f9",
+    "onReachBottomDistance": 400
+  },
+  "networkTimeout": {
+    "request": 10000
+  },
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "debug": false,
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,8 @@
+
+<view>
+    
+      
+        <first goods-info="{{goodsInfo}}" />
+      
+    
+</view>

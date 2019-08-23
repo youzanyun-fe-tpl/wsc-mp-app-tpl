@@ -1,0 +1,4 @@
+.order-action-buy {
+  background-color: #65c4aa;
+  color: #fff;
+}

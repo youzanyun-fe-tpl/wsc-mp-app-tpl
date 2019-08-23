@@ -1,0 +1,6 @@
+.hello {
+  height: 50px;
+  width: 750rpx;
+  background-color: red;
+  color: blue;
+}

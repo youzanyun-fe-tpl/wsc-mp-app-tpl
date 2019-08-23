@@ -1,0 +1,1 @@
+<button class="order-action-buy" bindtap="doBuy">立即下单</button>

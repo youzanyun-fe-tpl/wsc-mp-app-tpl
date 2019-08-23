@@ -1,0 +1,40 @@
+
+<view>
+    
+      
+        <image style=" height: 200px;width: 100%"
+                      mode="scaleToFill"
+                      src="https://img.yzcdn.cn/public_files/2019/07/19/60f6dbc66ea8d0f1b28e01d5e4600799.png"></image>
+      
+    
+      
+        <image style=" height: 50px;width: 100%"
+                      mode="scaleToFill"
+                      src="https://img.yzcdn.cn/public_files/2019/07/19/a44e472fed6cae19b9cb64e69c6628d0.png"></image>
+      
+    
+      
+        <image style=" height: 50px;width: 100%"
+                      mode="scaleToFill"
+                      src="https://img.yzcdn.cn/public_files/2019/07/19/e4099d8a83ea3b0dba1cbc412549f0b0.png"></image>
+      
+    
+      
+        <image style=" height: 50px;width: 100%"
+                      mode="scaleToFill"
+                      src="https://img.yzcdn.cn/public_files/2019/07/19/0a0d0729e79cbd5e870a716a00871b13.png"></image>
+      
+    
+      
+        <image style=" height: 50px;width: 100%"
+                      mode="scaleToFill"
+                      src="https://img.yzcdn.cn/public_files/2019/07/19/5fd4e5b2d511f5f90157fa4fce8ca777.png"></image>
+      
+        <test />
+      
+        <image style=" height: 50px;width: 100%"
+                      mode="scaleToFill"
+                      src="https://img.yzcdn.cn/public_files/2019/07/19/e63af7705be16247763753a1a3a4678f.png"></image>
+      
+    
+</view>
