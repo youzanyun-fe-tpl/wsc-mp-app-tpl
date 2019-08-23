@@ -210,7 +210,7 @@ function arrayFindLast(arr, predicate) {
     if (predicate.call({}, kValue, k, arr)) {
       return kValue;
     }
-    k++;
+    k--;
   }
 
   return null;

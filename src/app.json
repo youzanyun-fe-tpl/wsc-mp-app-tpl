@@ -1,6 +1,7 @@
 {
   "pages": [
-    "pages/home/feature/index"
+    "pages/home/feature/index",
+    "pages/goods/cart/index"
   ],
   "subPackages": [
     {
@@ -13,13 +14,6 @@
     {
       "root": "packages/order",
       "name": "下单",
-      "pages": [
-        "index"
-      ]
-    },
-    {
-      "root": "packages/cart",
-      "name": "购物车",
       "pages": [
         "index"
       ]
@@ -41,6 +35,5 @@
   "requiredBackgroundModes": [
     "audio"
   ],
-  "debug": false,
-  "sitemapLocation": "sitemap.json"
+  "debug": false
 }

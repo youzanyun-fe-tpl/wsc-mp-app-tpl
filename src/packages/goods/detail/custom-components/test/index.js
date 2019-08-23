@@ -5,14 +5,14 @@ Component({
   },
   data: {},
   lifetimes: {
-    attached: function attached() {
-      const yunSdk = this.getYunSdk();
-      console.log('goodsItem: ', yunSdk.page.goodsItem);
-    },
+    attached: function attached() {},
     moved: function moved() {},
     detached: function detached() {}
   },
-  ready: function ready() {},
+  ready: function ready() {
+    const yunSdk = this.getYunSdk();
+    console.log('goodsItem: ', yunSdk.page.goodsItem);
+  },
   pageLifetimes: {
     show: function show() {}
   },

@@ -54,6 +54,12 @@
 					"name": "packages/order/index",
 					"pathName": "packages/order/index",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/goods/cart/index",
+					"pathName": "pages/goods/cart/index",
+					"scene": null
 				}
 			]
 		}

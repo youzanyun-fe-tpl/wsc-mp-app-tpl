@@ -2,15 +2,15 @@ Component({
   behaviors: [],
   data: {},
   lifetimes: {
-    attached: function attached() {
-      const yunSdk = this.getYunSdk();
-      console.log('delivery: ', yunSdk.page.delivery);
-    },
+    attached: function attached() {},
     moved: function moved() {},
     detached: function detached() {}
   },
 
-  ready: function ready() {},
+  ready: function ready() {
+    const yunSdk = this.getYunSdk();
+    console.log('delivery: ', yunSdk.page.delivery);
+  },
 
   pageLifetimes: {
     show: function show() {}
