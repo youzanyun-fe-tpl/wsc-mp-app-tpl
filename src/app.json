@@ -17,13 +17,6 @@
       "pages": [
         "index"
       ]
-    },
-    {
-      "root": "pages/goods/cart",
-      "name": "购物车",
-      "pages": [
-        "index"
-      ]
     }
   ],
   "usingComponents": {
