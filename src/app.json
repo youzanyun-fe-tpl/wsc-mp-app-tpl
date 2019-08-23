@@ -16,6 +16,13 @@
       "pages": [
         "index"
       ]
+    },
+    {
+      "root": "packages/cart",
+      "name": "购物车",
+      "pages": [
+        "index"
+      ]
     }
   ],
   "usingComponents": {
