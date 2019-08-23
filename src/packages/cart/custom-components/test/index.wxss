@@ -1,0 +1,4 @@
+button {
+  background-color: #65c4aa;
+  color: #fff;
+}

@@ -1,1 +1,1 @@
-<view bind:tap="selectGoods">选中商品</view>
+<button bind:tap="selectGoods">选中商品</button>
