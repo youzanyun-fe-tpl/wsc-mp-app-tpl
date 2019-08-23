@@ -1,8 +1,4 @@
 
-<view>
-    
-      
-        <first goods-info="{{goodsInfo}}" />
-      
-    
+<view>      
+  <first goods-info="{{goodsInfo}}" />
 </view>
