@@ -1,4 +1,4 @@
-import CartPage from '../../youzanyun-sdk/cart-page/index';
+import CartPage from '../../../youzanyun-sdk/cart-page/index';
 
 Page({
   onLoad() {

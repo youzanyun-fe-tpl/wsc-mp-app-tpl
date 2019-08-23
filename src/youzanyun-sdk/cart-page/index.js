@@ -41,19 +41,19 @@ export default {
   process: {
     selectGoods() {
       console.log('selectGoods');
-      return new Promise.resolve()
+      return Promise.resolve()
     },
     cancelSelectGoods() {
       console.log('cancelSelectGoods');
-      return new Promise.resolve()
+      return Promise.resolve()
     },
     setGoodsNum() {
       console.log('setGoodsNum');
-      return new Promise.resolve()
+      return Promise.resolve()
     },
     createAndGoOrder() {
       console.log('createAndGoOrder');
-      return new Promise.resolve()
+      return Promise.resolve()
     },
   },
 };
