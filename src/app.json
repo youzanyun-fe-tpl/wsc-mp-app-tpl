@@ -1,6 +1,7 @@
 {
   "pages": [
-    "pages/home/feature/index"
+    "pages/home/feature/index",
+    "pages/goods/cart/index"
   ],
   "subPackages": [
     {
@@ -41,6 +42,5 @@
   "requiredBackgroundModes": [
     "audio"
   ],
-  "debug": false,
-  "sitemapLocation": "sitemap.json"
+  "debug": false
 }
