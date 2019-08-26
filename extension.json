@@ -29,12 +29,7 @@
     }
   },
   "app": {
-    "addPages": [
-      {
-        "package": "main",
-        "path": "pages/helloworld/index"
-      }
-    ],
+    "addPages": [],
     "setPreloadRule": {
       "pages/home/dashboard/index": {
         "network": "all",
