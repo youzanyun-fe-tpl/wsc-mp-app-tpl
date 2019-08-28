@@ -1,5 +1,5 @@
 {
-  "app.js": "0.0.1",
+  "app.js": "0.0.2",
   "youzanyun-sdk/index.js": "0.0.1",
   "packages/order/index.js": "0.0.1",
   "packages/goods/detail/index.js": "0.0.1"
