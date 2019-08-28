@@ -4,6 +4,7 @@
   "navigationBarTextStyle": "black",
   "enablePullDownRefresh": true,
   "usingComponents": {
-    "first": "./custom-components/first/index"
+    "test": "./custom-components/test/index",
+    "goods": "./custom-components/goods/index"
   }
 }

@@ -1,7 +1,7 @@
 Component({
   behaviors: [],
   properties: {
-    goodsInfo: Object
+    componentData: Object
   },
   data: {
 

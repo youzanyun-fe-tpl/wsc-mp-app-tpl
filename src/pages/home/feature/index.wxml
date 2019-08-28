@@ -1,4 +1,12 @@
-
-<view>      
-  <first goods-info="{{goodsInfo}}" />
+<view class="showcase-components-container">
+    <block
+            wx:for="{{ components }}"
+            wx:for-item="item"
+            wx:for-index="index"
+            wx:key="unique"
+    >
+        <goods wx:if="{{item.type === 'custom_goods'}}"  component-data="{{ item }}" />
+        
+        <test wx:if="{{item.type === 'custom_test'}}"  component-data="{{ item }}" />
+    </block>
 </view>
