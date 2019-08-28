@@ -1,8 +1,11 @@
 {
   "pages": [
     "pages/hello-world/index",
+    "pages/home/dashboard-replace/index",
     "pages/home/feature/index",
-    "pages/goods/cart/index"
+    "pages/goods/cart/index",
+    "pages/goods/cart-replace/index",
+    "pages/usercenter/dashboard-replace/index"
   ],
   "subPackages": [
     {
