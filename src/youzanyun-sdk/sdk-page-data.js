@@ -1,5 +1,7 @@
-const _f = () => {};
+import { AsyncEvent, SyncEvent } from './events';
+import { randomStr } from './utils/random';
 
+const _f = () => {};
 export default class YunSdkPageData {
   constructor() {
     this.process = {};
@@ -66,11 +68,41 @@ export default class YunSdkPageData {
     if (!this[key]) {
       // 允许sdk.page.xxxx访问数据
       Object.defineProperty(this, key, {
+        enumerable: true,
+        configurable: true,
         get: () => {
           return this.data[key];
-        },
-        configurable: true
+        }
       });
     }
+  }
+
+  trigger(eventName, args, async = false) {
+    if (!eventName) {
+      return;
+    }
+
+    if (!this.events[eventName]) {
+      this.events[eventName] = async ? new AsyncEvent() : new SyncEvent();
+    }
+
+    const result = this.events[eventName].trigger(args);
+    if (this.events[eventName] instanceof SyncEvent && Object.keys(this.events[eventName]).length === 1) {
+      return result[0];
+    }
+    return result;
+  }
+
+  /**
+   * 
+   * @param {*} eventName
+   * @param {*} callback
+   */
+  on(eventName, callback) {
+    if (!eventName) {
+      return;
+    }
+
+    this.events[eventName].on(eventName + '_' + randomStr(), callback);
   }
 }

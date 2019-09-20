@@ -1,4 +1,5 @@
 import YunSdkPageData from './sdk-page-data';
+import YunAppContainer from './yun-app-container';
 
 // 定制页面列表
 const CUSTOM_PAGE_WHITELIST = [
@@ -15,9 +16,18 @@ const CUSTOM_PAGE_WHITELIST = [
 ];
 
 const PAGE_MAP = {
-  cart: 'pages/goods/cart/index',
-  buy: 'packages/order/index',
-  goodsDetail: 'packages/goods/detail/index'
+  login: '/pages/account/login/index',
+  cart: '/pages/goods/cart/index',
+  buy: '/packages/order/index',
+  goodsDetail: '/packages/goods/detail/index',
+  userCenter: '/pages/usercenter/dashboard/index',
+  orderList: '/packages/trade/order/list/index',
+  cardPackages: '/packages/card/all/index',
+  userCounponList: '/packages/user/coupon/list/index',
+  addressList: '/packages/order/address-list/index',
+  refundList: '/packages/trade/refund/list/index',
+  userSettings: '/packages/user/membercenter/setting/index',
+  accountSettings: '/packages/account/settings/index'
 };
 
 export default class YouzanyunBridge {
@@ -28,7 +38,7 @@ export default class YouzanyunBridge {
      * 定制页面的数据管理单元
      */
     this.__yunpages__ = {};
-    this.app = {};
+    this.app = new YunAppContainer();
     this.page = null;
     this.__process__ = {};
     this.__init();
