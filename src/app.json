@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/hello-world/index",
+    "pages/home/dashboard/index",
     "pages/home/dashboard-replace/index",
     "pages/home/feature/index",
     "pages/goods/cart/index",

@@ -8,7 +8,7 @@ export default class User {
     getUserInfo() {
         return Promise.resolve({
             // 头像
-            avatar: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIVDBFq6eJxafLGcyWIW9cCFqvDqqYU0J1px8ZGat3zo8DsL4KWlDXdibnLmgejblEHEKKuMPppUrQ/132',
+            avatar: 'https://img.yzcdn.cn/upload_files/avatar.png',
             nickName: '昵称',
         });
     }
