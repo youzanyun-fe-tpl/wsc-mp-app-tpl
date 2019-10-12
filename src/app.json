@@ -5,6 +5,7 @@
     "pages/home/feature/index",
     "pages/goods/cart/index",
     "pages/goods/cart-replace/index",
+    "pages/usercenter/dashboard/index",
     "pages/usercenter/dashboard-replace/index"
   ],
   "subPackages": [
