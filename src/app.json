@@ -23,6 +23,15 @@
       "pages": [
         "index"
       ]
+    },
+    {
+      "root": "packages/trade",
+      "name": "订单",
+      "pages": [
+        "cert/verify-ticket-replace/index",
+        "order/result/index",
+        "order/result-replace/index"
+      ]
     }
   ],
   "usingComponents": {
