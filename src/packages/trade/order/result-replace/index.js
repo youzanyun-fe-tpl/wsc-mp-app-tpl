@@ -2,6 +2,7 @@ Page({
   data: {
 
   },
-  onLoad() {
+  onLoad(query) {
+    const orderNo = query.order_no;
   },
 });
