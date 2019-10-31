@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "抽奖拼团页",
+  "navigationBarBackgroundColor": "#FFF",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+  }
+}
