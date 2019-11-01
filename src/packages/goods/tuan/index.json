@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "积分页组件开发",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "test": "./custom-components/test/index"
+  }
+}

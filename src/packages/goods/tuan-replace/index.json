@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "团购详情页",
+  "navigationBarBackgroundColor": "#FFF",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+  }
+}
